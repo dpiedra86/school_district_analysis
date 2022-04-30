@@ -45,17 +45,9 @@ Thomas High School excluding THS 9th graders
 
 ## How does replacing the ninth-grade scores affect the following:
 ### Math and reading scores by grade
-> **Conclusion**: 
+> **Conclusion**: Both math and reading appear to have "NaN" for 9th grade, making them unable to compare with the rest of 9th graders. 
 
+### Scores by school spending, Scores by school size, Scores by school type
+> **Conclusion**: In the overall percentages it seems to make little difference in the percentages as they represent a very small part of the datset. 
 
-### Scores by school spending
-> **Conclusion**: 
-
-
-### Scores by school size
-> **Conclusion**: 
-
-
-### Scores by school type
-> **Conclusion**: 
 
