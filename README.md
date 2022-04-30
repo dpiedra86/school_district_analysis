@@ -10,24 +10,52 @@ The request was to create a deep analysis to understand how well the schools tak
 
 ## Results
 
->> How is the district summary affected?
+### How is the district summary affected?
 
-![Disctrict_Summary](https://github.com/dpiedra86/school_district_analysis/blob/main/Images/first_district_summary_challenge.png)
+![Disctrict_Summary](https://github.com/dpiedra86/school_district_analysis/blob/main/Images/practice_district_summary.png)
 District Summary All Schools
 
-![Disctrict_Summary](https://github.com/dpiedra86/school_district_analysis/blob/main/Images/first_district_summary_challenge.png)
+![Disctrict_Summary](https://github.com/dpiedra86/school_district_analysis/blob/main/Images/challenge_district_summary.png)
+District Summary excluding THS 9th graders
+
+> **Conclusion**: 
+Only the passing percentages were affected, and it happened ina minor scale. THS does not represent a large amount of data so it is only perceptible by using decimal figures.
+
+### How is the school summary affected?
+ 
+![School_Summary](https://github.com/dpiedra86/school_district_analysis/blob/main/Images/practice_school_summary.png)
+
+School Summary All Schools
+
+![School_Summary](https://github.com/dpiedra86/school_district_analysis/blob/main/Images/challenge_school_summary.png)
+
+School Summary excluding THS 9th graders
+
+> **Conclusion**: At a school level the percentages are greatly affected. This means 9th grade was raising the numbers with high math and reading grades. 
+> We could deep dive into this data to get more information if needed. 
+
+### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
+![School_Summary](https://github.com/dpiedra86/school_district_analysis/blob/main/Images/THS_failed.png)
+
+Thomas High School excluding THS 9th graders
+
+> **Conclusion**: Without the 9th graders THS fails to pass the minimum of 70% overall.
 
 
->> How is the school summary affected?
+## How does replacing the ninth-grade scores affect the following:
+### Math and reading scores by grade
+> **Conclusion**: 
 
->> How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
->> How does replacing the ninth-grade scores affect the following:
+### Scores by school spending
+> **Conclusion**: 
 
->> Math and reading scores by grade
 
->> Scores by school spending
+### Scores by school size
+> **Conclusion**: 
 
->> Scores by school size
 
->> Scores by school type
+### Scores by school type
+> **Conclusion**: 
+
