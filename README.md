@@ -50,4 +50,14 @@ Thomas High School excluding THS 9th graders
 ### Scores by school spending, Scores by school size, Scores by school type
 > **Conclusion**: In the overall percentages it seems to make little difference in the percentages as they represent a very small part of the datset. 
 
+## Changes Summary
+- Using .loc helped us to get specific information from the data set. Until the challenge the most we did was to gruopby method.
+- np.nan is very useful tool to change values in data set, later we can change the value with more advanced nan methods. 
 
+is_NaN = student_data_df.isnull()
+row_NaN = is_NaN.any(axis=1)
+rows_with_NaN = student_data_df[row_NaN]
+rows_with_NaN
+- Using axis to ge to get Nan information. Although there are other mothods, this I found in the internet and liked the most. 
+- Understanding how dtypes affect the operations we are trying to do. If oneself is trying to do some operations with diferewnt dtypes, one will get stuck until the information matches and the values are congruent. 
+- This happened to me in the student substraction. 
